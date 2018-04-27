@@ -1,6 +1,6 @@
 import vueBlogEditor from './TopEditor.vue'
 import TopPreview from './TopPreview.vue'
-const version = '0.0.2'
+const version = '0.0.3'
 const components  = [vueBlogEditor, TopPreview]
 const install = function(Vue) {
   if (install.installed) return;

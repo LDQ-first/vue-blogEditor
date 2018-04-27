@@ -1,7 +1,7 @@
 {
-  "name": "vue-blogEditor",
+  "name": "vue-blogeditor",
   "description": "A markdown editor",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "LDQ-first",
   "private": false,
   "main": "dist/build.js",
