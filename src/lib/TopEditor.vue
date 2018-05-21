@@ -22,7 +22,7 @@
           <a href="http://wowubuntu.com/markdown/" target="_blank"><i class="icon iconfont icon-query"></i></a>
         </div>
         <div class="menu-group-right">
-          <i class="icon iconfont icon-fullscreen" @click="isFullScreen = !isFullScreen" title="全屏"></i>
+          <i class="icon iconfont icon-fullscreen"  @click="isFullScreen = !isFullScreen" title="全屏"></i>
         </div>
       </div>
       <!-- 内容区 -->
@@ -413,6 +413,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
+  z-index: 900;
 }
 
 .top-editor .editor-wrap {
